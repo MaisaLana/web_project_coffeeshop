@@ -91,16 +91,17 @@
 }
 
 .header__footer {
-  margin-top: auto;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin: auto 0 40px;
 }
 
-.header__footer__list {
-  list-style: none;
-  padding: 0;
+.header__paragraph {
+  margin: 0 80px;
+}
+
+.header__paragraph-adress {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
 }
 
 .recipes {
