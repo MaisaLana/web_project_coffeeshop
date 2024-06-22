@@ -66,7 +66,7 @@
   letter-spacing: 1px;
 }
 
-.header__title_span {
+.header__title__span {
   display: block;
   font-family: "Noto Serif";
   font-style: italic;
@@ -98,7 +98,7 @@
   margin-right: 80px;
 }
 
-.header__footer_list {
+.header__footer__list {
   list-style: none;
   padding: 0;
 }
@@ -135,7 +135,7 @@
   gap: 40px;
 }
 
-.recipes__videos_item {
+.recipes__videos__item {
   margin-bottom: 215px;
 }
 
