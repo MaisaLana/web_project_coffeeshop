@@ -184,8 +184,7 @@ iframe {
   font-size: 44px;
   line-height: 52px;
   text-align: center;
-  margin: 0;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .reservation__label {
