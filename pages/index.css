@@ -212,6 +212,8 @@ iframe {
   flex-direction: column;
   gap: 32px;
   border: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .reservation__form-item {
