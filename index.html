@@ -42,7 +42,7 @@
     />
   </head>
 
-  <body>
+  <!-- <body>
     <div class="page">
       <header class="header">
         <nav class="nav">
@@ -127,10 +127,47 @@
               </p>
             </div>
           </div>
-        </section>
-        <section class="reservation" id="reservation"></section>
-      </main>
-      <footer class="footer"></footer>
+        </section> -->
+  <section class="reservation" id="reservation">
+    <h2 class="reservation__title">Reservar uma mesa</h2>
+    <div class="form">
+      <fieldset class="reservation__form">
+        <label class="reservation__label">Nome*</label>
+        <input
+          class="reservation__form-item"
+          type="text"
+          placeholder="Nome"
+          required
+        />
+        <label class="reservation__label">Número de convidados*</label>
+        <input
+          class="reservation__form-item"
+          type="number"
+          min="1"
+          max="8"
+          placeholder="1 - 8"
+          required
+        />
+        <label class="reservation__label">Data & hora*</label>
+        <input class="reservation__form-item" type="datetime-local" required />
+
+        <label class="reservation__label">Seu e-mail*</label>
+        <input
+          class="reservation__form-item"
+          type="email"
+          placeholder="email@email.com"
+          required
+        />
+      </fieldset>
+      <button type="submit" class="Reservation__button">
+        Reservar uma mesa
+      </button>
+      <input type="checkbox" required />
+      <label class="reservation__label">Eu concordo com os termos de uso</label>
     </div>
-  </body>
+  </section>
+  <!-- </main> -->
+  <footer class="footer"></footer>
+  <!-- </div> -->
+  <!-- </body> -->
 </html>

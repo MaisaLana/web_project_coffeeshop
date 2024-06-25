@@ -158,3 +158,57 @@ iframe {
   font-size: 20px;
   line-height: 30px;
 }
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("/images/background_reservation.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  padding-bottom: 120px;
+}
+.reservation__title {
+  padding-top: 100px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__label {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.reservation__form {
+  max-width: 385px;
+  margin-top: 80px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.reservation__form-item {
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 30px;
+}
+.reservation__form-item::placeholder {
+  color: #838383;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.reservation__button {
+  max-width: 385px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
