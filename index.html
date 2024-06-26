@@ -7,7 +7,6 @@
     <meta name="author" content="Maisa Santos De Lana" />
     <meta name="keywords" content="cafe" />
     <title>Pausa para o café</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -129,21 +128,21 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
-          <form class="form">
-            <fieldset class="reservation__form">
-              <label class="reservation__label">
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label class="form__label">
                 <span class="span">Nome*</span>
                 <input
-                  class="reservation__form-item"
+                  class="form__fieldset-item"
                   type="text"
                   placeholder="Nome"
                   required
                 />
               </label>
-              <label class="reservation__label"
+              <label class="form__label"
                 ><span>Número de convidados*</span>
                 <input
-                  class="reservation__form-item"
+                  class="form__fieldset-item"
                   type="number"
                   min="1"
                   max="8"
@@ -152,19 +151,19 @@
                 />
               </label>
 
-              <label class="reservation__label">
+              <label class="form__label">
                 <span>Data & hora*</span>
                 <input
-                  class="reservation__form-item"
+                  class="form__fieldset-item"
                   type="datetime-local"
                   required
                 />
               </label>
 
-              <label class="reservation__label"
+              <label class="form__label"
                 ><span>Seu e-mail*</span>
                 <input
-                  class="reservation__form-item"
+                  class="form__fieldset-item"
                   type="email"
                   placeholder="email@email.com"
                   required
@@ -174,14 +173,45 @@
             <button type="submit" class="form__button">
               Reservar uma mesa
             </button>
-            <label class="reservation__label-checkbox">
+            <label class="form__label-checkbox">
               <input class="checkbox" type="checkbox" required />
               <span>Eu concordo com os termos de uso</span></label
             >
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              class="footer__column_logo"
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logo_white"
+            />
+          </div>
+          <div class="footer__column footer__column_social">
+            <h4 class="footer__column_heading">Midia social</h4>
+            <ul class="footer__column_list">
+              <li class="footer__list_item">
+                <img
+                  class="footer__list-ico"
+                  src="./images/facebook_white.svg"
+                  alt="icone_facebook"
+                />Facebook
+              </li>
+              <li class="footer__list_item">
+                <img
+                  class="footer__list-ico"
+                  src="./images/instagram_white.svg"
+                  alt="icone_facebook"
+                />Instagram
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__circle"></div>
+        <div class="footer__copyright">© 2024 Maisa Santos De Lana</div>
+      </footer>
     </div>
   </body>
 </html>
