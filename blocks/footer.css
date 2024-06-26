@@ -1,0 +1,22 @@
+.footer {
+  background-color: #0a2850;
+  color: #ffffff;
+  padding: 60px 80px 108px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_logo {
+  width: 105px;
+  height: 39px;
+}
+
+.footer__column_social {
+}
+
+.footer__column_list {
+  list-style: none;
+}

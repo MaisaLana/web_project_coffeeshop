@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+}
+
+.header__title {
+  max-width: 709px;
+  margin-left: 80px;
+  margin-top: 183px;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+.header__title-span {
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  margin-top: 28px;
+  margin-left: 80px;
+  max-width: 683px;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  max-width: 646px;
+  max-height: 568px;
+}
+
+.header__footer {
+  margin: auto 0 40px;
+}
+
+.header__paragraph {
+  margin: 0 80px;
+}
+
+.header__paragraph-adress {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
+}
